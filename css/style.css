@@ -5,16 +5,28 @@
 html,
 body {
     height: 100vh;
-    margin: 0;
+
 }
 
 h1 {
     font-family: 'Henny Penny', cursive;
     font-size: 80px;
-    font-weight: 300px;
+    font-weight: 200px;
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: x-large;
+    font-weight: x-large;
+    padding-bottom: 7px;
+}
+
 
 body {
     margin: 0;
@@ -57,10 +69,14 @@ img {
     justify-content: center;
     background-color: #d5d5d5;
     font-family: 'Dosis', sans-serif;
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 600;
     margin: 0px;
-    padding-top: 230px;
+    padding-top: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    Padding-bottom: 50px;
+
 }
 
 .check {
@@ -78,4 +94,14 @@ img {
 footer {
     display: flex;
     justify-content: end;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+    font-weight: large;
+    padding-top: 20px;
+    padding-right: 7px;
 }
